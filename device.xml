@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>  
+
+  <remote name="kiso"
+      fetch="ssh://git@github.com/kisodev"
+      revision="lineage-22" />
+  
+  <remote name="posices"
+      fetch="ssh://git@github.com/posices"
+      revision="fifteen" />
+  
+</manifest>
