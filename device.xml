@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<manifest>  
+<manifest>
 
   <remote name="kiso"
       fetch="ssh://git@github.com/kisodev"
       revision="lineage-22" />
-  
+
   <remote name="posices"
       fetch="ssh://git@github.com/posices"
       revision="fifteen" />
-  
+
+  <project path="device/xiaomi/dipper" name="device_xiaomi_dipper" remote="posices" />
+  <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="posices" />
+  <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="kiso" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="posices" />
+  <project path="vendor/xiaomi/dipper" name="android_vendor_xiaomi_dipper" remote="posices" />
+  <project path="vendor/xiaomi/sdm845-common" name="android_vendor_xiaomi_sdm845-common" remote="posices" />
+
 </manifest>
